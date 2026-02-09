@@ -1,0 +1,646 @@
+<!doctype html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/img/favicon/favicon-96x96.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Preise & Pakete - VirtuELLE | Flexible Stundenmodelle</title>
+    <meta name="description" content="Transparente Preise für virtuelle Assistenz. Wählen Sie Ihr Paket oder buchen Sie nach Bedarf." />
+     <meta property="og:image" content="/img/4.png">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content="/img/4.png">
+    <link rel="icon" type="image/png" href="/img/favicon/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/svg+xml" href="/img/favicon/favicon.svg" />
+    <link rel="shortcut icon" href="/img/favicon/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/img/favicon/apple-touch-icon.png" />
+    <link rel="manifest" href="/assets/manifest.json" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&family=Cormorant+Garamond:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css" />
+    <link rel="stylesheet" href="/pricing.css" />
+    <link rel="stylesheet" href="/style.css">
+
+    <script type="module" src="/main.js"></script>
+  </head>
+  <body class="pricing-page">
+    <div class="background-decorations">
+      <div class="floating-shape shape-1"></div>
+      <div class="floating-shape shape-2"></div>
+      <div class="floating-shape shape-3"></div>
+      <div class="gradient-orb orb-1"></div>
+      <div class="gradient-orb orb-2"></div>
+      <div class="gradient-orb orb-3"></div>
+    </div>
+
+    <header class="header" id="header">
+      <div class="header-glow"></div>
+      <div class="container header-container">
+        <div class="logo" onclick="window.location.href='/index.html'">
+          <h1 class="logo-text"><img src="/img/logo-rem-bg.png" alt="Logo"></h1>
+        </div>
+        <nav class="nav" id="nav">
+          <ul class="nav-list">
+            <li><a href="/" class="nav-link">Home</a></li>
+            <li><a href="/about.html" class="nav-link">Über uns</a></li>
+            <li><a href="/services.html" class="nav-link">Leistungen</a></li>
+            <li><a href="/pricing.html" class="nav-link">Preise</a></li>
+            <li><a href="/contact.html" class="nav-link">Kontakt</a></li>
+          </ul>
+          
+        </nav>
+        <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </header>
+
+    <main>
+      <section class="pricing-hero">
+        <div class="container">
+          <div class="pricing-hero-content" data-aos="fade-up">
+            <span class="section-label">Transparente Preise</span>
+            <h1 class="pricing-hero-title">Investieren Sie in<br><span class="gradient-text">Ihre Freiheit</span></h1>
+            <p class="pricing-hero-subtitle">Flexible Stundenpakete, die sich Ihrem Bedarf anpassen. Keine versteckten Kosten.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="rates-section">
+        <div class="container">
+          <div class="rates-grid">
+            <div class="rate-card hourly" data-aos="fade-up" data-aos-delay="0">
+              <div class="rate-icon">
+                <i data-lucide="clock"></i>
+              </div>
+              <h3 class="rate-title">Stundensatz</h3>
+              <div class="rate-price-display">
+                <div class="rate-amount">
+                  <span class="currency">€</span>
+                  <span class="amount">75</span>
+                </div>
+                <div class="rate-breakdown">
+                  <div class="breakdown-row">
+                    <span>Netto</span>
+                    <span>€ 75,00</span>
+                  </div>
+                  <div class="breakdown-row mwst">
+                    <span>19% MwSt.</span>
+                    <span>€ 14,25</span>
+                  </div>
+                  <div class="breakdown-row total">
+                    <span>Brutto</span>
+                    <span>€ 89,25</span>
+                  </div>
+                </div>
+              </div>
+              <p class="rate-description">Perfekt für kurzfristige oder einmalige Aufgaben</p>
+            </div>
+
+            <div class="rate-card daily featured" data-aos="fade-up" data-aos-delay="100">
+              <div class="featured-badge">
+                <i data-lucide="star"></i>
+                <span>Beliebt</span>
+              </div>
+              <div class="rate-icon">
+                <i data-lucide="calendar"></i>
+              </div>
+              <h3 class="rate-title">Tagessatz</h3>
+              <div class="rate-price-display">
+                <div class="rate-amount">
+                  <span class="currency">€</span>
+                  <span class="amount">540</span>
+                </div>
+                <div class="rate-breakdown">
+                  <div class="breakdown-row">
+                    <span>Netto (8 Std.)</span>
+                    <span>€ 540,00</span>
+                  </div>
+                  <div class="breakdown-row mwst">
+                    <span>19% MwSt.</span>
+                    <span>€ 102,60</span>
+                  </div>
+                  <div class="breakdown-row total">
+                    <span>Brutto</span>
+                    <span>€ 642,60</span>
+                  </div>
+                </div>
+              </div>
+              <p class="rate-description">10% Ersparnis gegenüber Einzelstunden</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="packages-section">
+        <div class="container">
+          <div class="section-header" data-aos="fade-up">
+            <span class="section-label">Pakete</span>
+            <h2 class="section-title">Wählen Sie Ihr<br>perfektes Paket</h2>
+            <p class="section-description">Alle Pakete sind individuell anpassbar und monatlich kündbar</p>
+          </div>
+
+          <div class="packages-grid">
+            <div class="package-card" data-aos="fade-up" data-aos-delay="0">
+              <div class="package-header">
+                <div class="package-icon">
+                  <i data-lucide="heart-handshake"></i>
+                </div>
+                <h3 class="package-name">Kennenlernen</h3>
+                <p class="package-hours">1,5 Stunden</p>
+              </div>
+
+              <div class="package-pricing">
+                <div class="price-main">
+                  <span class="price-label"></span>
+                  <div class="price-amount">
+                    <span class="currency">€</span>
+                    <span class="amount">97</span>
+                  </div>
+                </div>
+                
+              </div>
+
+              <div class="package-features">
+                <div class="feature-item">
+                  <i data-lucide="check"></i>
+                  <span>Kostenlose Erstberatung (30 Min.)</span>
+                </div>
+                <div class="feature-item">
+                  <i data-lucide="check"></i>
+                  <span>Bedarfsanalyse</span>
+                </div>
+                <div class="feature-item">
+                  <i data-lucide="check"></i>
+                  <span>Prozessoptimierung</span>
+                </div>
+                <div class="feature-item">
+                  <i data-lucide="check"></i>
+                  <span>Individuelle Empfehlungen</span>
+                </div>
+              </div>
+
+              <button class="package-button" data-package="kennenlernen">
+                <span>Jetzt buchen</span>
+                <i data-lucide="arrow-right"></i>
+              </button>
+            </div>
+
+            <div class="package-card" data-aos="fade-up" data-aos-delay="100">
+              <div class="package-header">
+                <div class="package-icon">
+                  <i data-lucide="briefcase"></i>
+                </div>
+                <h3 class="package-name">Basic</h3>
+                <p class="package-hours">3 Stunden / Monat</p>
+              </div>
+
+              <div class="package-pricing">
+                <div class="price-main">
+                  <span class="price-label"></span>
+                  <div class="price-amount">
+                    <span class="currency">€</span>
+                    <span class="amount">225</span>
+                  </div>
+                </div>
+                
+              </div>
+
+              <div class="package-features">
+                <div class="feature-item">
+                  <i data-lucide="check"></i>
+                  <span>E-Mail Management</span>
+                </div>
+                <div class="feature-item">
+                  <i data-lucide="check"></i>
+                  <span>Terminkoordination</span>
+                </div>
+                <div class="feature-item">
+                  <i data-lucide="check"></i>
+                  <span>Dokumentenverwaltung</span>
+                </div>
+                <div class="feature-item">
+                  <i data-lucide="check"></i>
+                  <span>Telefonservice</span>
+                </div>
+                <div class="feature-item">
+                  <i data-lucide="check"></i>
+                  <span>Monatlich kündbar</span>
+                </div>
+              </div>
+
+              <button class="package-button" data-package="basic">
+                <span>Jetzt buchen</span>
+                <i data-lucide="arrow-right"></i>
+              </button>
+            </div>
+
+            <div class="package-card featured" data-aos="fade-up" data-aos-delay="200">
+              <div class="featured-badge">
+                <i data-lucide="star"></i>
+                <span>Empfohlen</span>
+              </div>
+              <div class="package-header">
+                <div class="package-icon">
+                  <i data-lucide="rocket"></i>
+                </div>
+                <h3 class="package-name">Advanced</h3>
+                <p class="package-hours">8 Stunden / Monat</p>
+              </div>
+
+              <div class="package-pricing">
+                <div class="price-main">
+                  <span class="price-label"></span>
+                  <div class="price-amount">
+                    <span class="currency">€</span>
+                    <span class="amount">600</span>
+                  </div>
+                </div>
+                
+              </div>
+
+              <div class="package-features">
+                <div class="feature-item">
+                  <i data-lucide="check"></i>
+                  <span>Alles aus Basic</span>
+                </div>
+                <div class="feature-item">
+                  <i data-lucide="check"></i>
+                  <span>Reiseplanung & Buchung</span>
+                </div>
+                <div class="feature-item">
+                  <i data-lucide="check"></i>
+                  <span>Event Koordination</span>
+                </div>
+                <div class="feature-item">
+                  <i data-lucide="check"></i>
+                  <span>Social Media Management</span>
+                </div>
+                <div class="feature-item">
+                  <i data-lucide="check"></i>
+                  <span>Rechnungsverwaltung</span>
+                </div>
+                <div class="feature-item highlight">
+                  <i data-lucide="star"></i>
+                  <span>Prioritäts-Support</span>
+                </div>
+              </div>
+
+              <button class="package-button" data-package="advanced">
+                <span>Jetzt buchen</span>
+                <i data-lucide="arrow-right"></i>
+              </button>
+            </div>
+
+            <div class="package-card" data-aos="fade-up" data-aos-delay="300">
+              <div class="package-header">
+                <div class="package-icon">
+                  <i data-lucide="crown"></i>
+                </div>
+                <h3 class="package-name">Premium</h3>
+                <p class="package-hours">16 Stunden / Monat</p>
+              </div>
+
+              <div class="package-pricing">
+                <div class="price-main">
+                  <span class="price-label"></span>
+                  <div class="price-amount">
+                    <span class="currency">€</span>
+                    <span class="amount">1.200</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="package-features">
+                <div class="feature-item">
+                  <i data-lucide="check"></i>
+                  <span>Alles aus Advanced</span>
+                </div>
+                <div class="feature-item">
+                  <i data-lucide="check"></i>
+                  <span>Dedizierte Ansprechpartnerin</span>
+                </div>
+                <div class="feature-item">
+                  <i data-lucide="check"></i>
+                  <span>Projekt Management</span>
+                </div>
+                <div class="feature-item">
+                  <i data-lucide="check"></i>
+                  <span>Strategische Beratung</span>
+                </div>
+                <div class="feature-item">
+                  <i data-lucide="check"></i>
+                  <span>24/7 Notfall-Hotline</span>
+                </div>
+                <div class="feature-item highlight">
+                  <i data-lucide="star"></i>
+                  <span>VIP-Service</span>
+                </div>
+              </div>
+
+              <button class="package-button" data-package="premium">
+                <span>Jetzt buchen</span>
+                <i data-lucide="arrow-right"></i>
+              </button>
+            </div>
+          </div>
+
+          <div class="custom-package-banner" data-aos="fade-up">
+            <div class="custom-banner-content">
+              <div class="custom-icon">
+                <i data-lucide="settings"></i>
+              </div>
+              <div class="custom-text">
+                <h3>Individuelles Paket benötigt?</h3>
+                <p>Alle Pakete sind vollständig anpassbar. Lassen Sie uns gemeinsam Ihr perfektes Paket schnüren.</p>
+              </div>
+              <a href="/contact.html?custom=true" class="custom-button">
+                <span>Jetzt anfragen</span>
+                <i data-lucide="arrow-right"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="comparison-section">
+        <div class="container">
+          <div class="section-header" data-aos="fade-up">
+            <h2 class="section-title">Alle Features im Überblick</h2>
+          </div>
+
+          <div class="comparison-table-wrapper" data-aos="fade-up">
+            <table class="comparison-table">
+              <thead>
+                <tr>
+                  <th class="feature-column">Feature</th>
+                  <th>Kennenlernen</th>
+                  <th>Basic</th>
+                  <th class="featured-column">Advanced</th>
+                  <th>Premium</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td class="feature-name">Stunden</td>
+                  <td>1,5</td>
+                  <td>3</td>
+                  <td class="featured-column">8</td>
+                  <td>16</td>
+                </tr>
+                <tr>
+                  <td class="feature-name">E-Mail Management</td>
+                  <td><i data-lucide="x"></i></td>
+                  <td><i data-lucide="check"></i></td>
+                  <td class="featured-column"><i data-lucide="check"></i></td>
+                  <td><i data-lucide="check"></i></td>
+                </tr>
+                <tr>
+                  <td class="feature-name">Terminkoordination</td>
+                  <td><i data-lucide="x"></i></td>
+                  <td><i data-lucide="check"></i></td>
+                  <td class="featured-column"><i data-lucide="check"></i></td>
+                  <td><i data-lucide="check"></i></td>
+                </tr>
+                <tr>
+                  <td class="feature-name">Dokumentenverwaltung</td>
+                  <td><i data-lucide="x"></i></td>
+                  <td><i data-lucide="check"></i></td>
+                  <td class="featured-column"><i data-lucide="check"></i></td>
+                  <td><i data-lucide="check"></i></td>
+                </tr>
+                <tr>
+                  <td class="feature-name">Reiseplanung</td>
+                  <td><i data-lucide="x"></i></td>
+                  <td><i data-lucide="x"></i></td>
+                  <td class="featured-column"><i data-lucide="check"></i></td>
+                  <td><i data-lucide="check"></i></td>
+                </tr>
+                <tr>
+                  <td class="feature-name">Event Koordination</td>
+                  <td><i data-lucide="x"></i></td>
+                  <td><i data-lucide="x"></i></td>
+                  <td class="featured-column"><i data-lucide="check"></i></td>
+                  <td><i data-lucide="check"></i></td>
+                </tr>
+                <tr>
+                  <td class="feature-name">Projekt Management</td>
+                  <td><i data-lucide="x"></i></td>
+                  <td><i data-lucide="x"></i></td>
+                  <td class="featured-column"><i data-lucide="x"></i></td>
+                  <td><i data-lucide="check"></i></td>
+                </tr>
+                <tr>
+                  <td class="feature-name">24/7 Notfall-Hotline</td>
+                  <td><i data-lucide="x"></i></td>
+                  <td><i data-lucide="x"></i></td>
+                  <td class="featured-column"><i data-lucide="x"></i></td>
+                  <td><i data-lucide="check"></i></td>
+                </tr>
+                <tr>
+                  <td class="feature-name">Dedizierte Ansprechpartnerin</td>
+                  <td><i data-lucide="check"></i></td>
+                  <td><i data-lucide="check"></i></td>
+                  <td class="featured-column"><i data-lucide="x"></i></td>
+                  <td><i data-lucide="check"></i></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+
+      <section class="cta-section">
+        <div class="container">
+          <div class="cta-content" data-aos="fade-up">
+            <h2 class="cta-title">Bereit loszulegen?</h2>
+            <p class="cta-description">Buchen Sie jetzt Ihre kostenlose Erstberatung und entdecken Sie, wie VirtuELLE Ihren Alltag erleichtern kann</p>
+            <a href="/contact.html" class="cta-button">
+              Kostenlose Beratung buchen
+              <i data-lucide="arrow-right"></i>
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-glow"></div>
+      <div class="container footer-container">
+        <div class="footer-top">
+          <div class="footer-brand">
+            <h2 class="footer-logo"><img src="/img/logo-white-bg-rem.png" alt="Logo"></h2>
+            <p class="footer-slogan">Virtuelle Lösungen mit femininer Note</p>
+            <div class="social-links">
+              <a href="https://www.linkedin.com/in/sabine-schoeneck-868808153/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" class="social-link">
+                <i data-lucide="linkedin"></i>
+              </a>
+              <a href="https://www.instagram.com/sabineschoeneck/" target="_blank" rel="noopener noreferrer" aria-label="Instagram" class="social-link">
+                <i data-lucide="instagram"></i>
+              </a>
+            </div>
+          </div>
+
+          <div class="footer-nav">
+            <h3>Navigation</h3>
+            <ul>
+              <li><a href="/index.html">Home</a></li>
+              <li><a href="/about.html">Über uns</a></li>
+              <li><a href="/services.html">Leistungen</a></li>
+              <li><a href="/pricing.html">Preise</a></li>
+              <li><a href="/contact.html">Kontakt</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-legal">
+            <h3>Rechtliches</h3>
+            <ul>
+              <li><a href="/imprint.html">Impressum</a></li>
+              <li><a href="/privacy.html">Datenschutz</a></li>
+              <li><a href="/cookie-policy.html">Cookie-Richtlinie</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-contact">
+            <h3>Kontakt</h3>
+            <ul>
+              <li><i data-lucide="mail"></i> sabineschoeneck@gmail.com</li>
+              <li><i data-lucide="phone"></i> +49 (0) 151 62516253</li>
+              <li><i data-lucide="map-pin"></i> Sellostr. 19, 14471 Potsdam</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <p>&copy; 2026 VirtuELLE. Alle Rechte vorbehalten.</p>
+                <p class="credit">Réalisé par
+                    <a href="https://huhpact.dev?utm_source=tantepaula&utm_medium=webbrowser&utm_campaign=tantepaula">
+                        <img class="img__credit" src="https://huhpact.dev/images/G89WG6majMo4HT1WtrS4AfxE7BZj2yWS.png" alt="huh(pact)">
+                    </a>
+                </p>
+            </div>
+        </div>
+      </div>
+    </footer>
+
+    <div class="booking-modal" id="bookingModal">
+      <div class="modal-overlay"></div>
+      <div class="modal-content">
+        <button class="modal-close" id="modalClose">
+          <i data-lucide="x"></i>
+        </button>
+        <div class="modal-body">
+          <div class="modal-icon">
+            <i data-lucide="calendar-check"></i>
+          </div>
+          <h3 class="modal-title">Paket buchen</h3>
+          <p class="modal-description">Sie werden zur Kontaktseite weitergeleitet, um Ihre Buchung abzuschließen</p>
+          <div class="modal-package-info" id="modalPackageInfo"></div>
+          <div class="modal-actions">
+            <button class="modal-button secondary" id="modalCancel">Abbrechen</button>
+            <button class="modal-button primary" id="modalConfirm">Weiter zur Buchung</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+     <div class="cookie-banner" id="cookieBanner">
+      <div class="cookie-content">
+        <div class="cookie-icon">
+          <i data-lucide="cookie"></i>
+        </div>
+        <div class="cookie-text">
+          <h3>Cookie-Einstellungen</h3>
+          <p>Wir verwenden Cookies, um Ihre Erfahrung zu verbessern und unsere Website zu optimieren.</p>
+        </div>
+      </div>
+      <div class="cookie-actions">
+        <button class="cookie-btn cookie-btn-secondary" id="cookieMore">
+          <span>Mehr</span>
+          <i data-lucide="settings"></i>
+        </button>
+        <button class="cookie-btn cookie-btn-primary" id="cookieAccept">
+          <span>Akzeptieren</span>
+          <i data-lucide="check"></i>
+        </button>
+      </div>
+    </div>
+
+    <div class="cookie-modal" id="cookieModal">
+      <div class="cookie-modal-overlay" id="cookieModalOverlay"></div>
+      <div class="cookie-modal-content">
+        <div class="cookie-modal-header">
+          <h2>Cookie-Einstellungen</h2>
+          <button class="cookie-modal-close" id="cookieModalClose" aria-label="Schließen">
+            <i data-lucide="x"></i>
+          </button>
+        </div>
+        <div class="cookie-modal-body">
+          <p class="cookie-modal-description">
+            Wählen Sie aus, welche Cookies Sie akzeptieren möchten. Essentielle Cookies sind erforderlich für die Funktionalität der Website.
+          </p>
+
+          <div class="cookie-option">
+            <div class="cookie-option-header">
+              <div class="cookie-option-info">
+                <h4>Essenziell</h4>
+                <p>Notwendig für die grundlegende Funktionalität der Website</p>
+              </div>
+              <label class="cookie-toggle">
+                <input type="checkbox" id="cookieEssential" checked disabled>
+                <span class="cookie-toggle-slider"></span>
+              </label>
+            </div>
+          </div>
+
+          <div class="cookie-option">
+            <div class="cookie-option-header">
+              <div class="cookie-option-info">
+                <h4>Marketing</h4>
+                <p>Ermöglicht personalisierte Werbung und Marketinganalysen</p>
+              </div>
+              <label class="cookie-toggle">
+                <input type="checkbox" id="cookieMarketing">
+                <span class="cookie-toggle-slider"></span>
+              </label>
+            </div>
+          </div>
+
+          <div class="cookie-option">
+            <div class="cookie-option-header">
+              <div class="cookie-option-info">
+                <h4>Analytics</h4>
+                <p>Hilft uns, die Nutzung unserer Website zu verstehen und zu verbessern</p>
+              </div>
+              <label class="cookie-toggle">
+                <input type="checkbox" id="cookieAnalytics">
+                <span class="cookie-toggle-slider"></span>
+              </label>
+            </div>
+          </div>
+        </div>
+        <div class="cookie-modal-footer">
+          <button class="cookie-btn cookie-btn-secondary" id="cookieSaveSettings">
+            Einstellungen speichern
+          </button>
+         
+        </div>
+      </div>
+    </div>
+
+    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <script type="module" src="/pricing.js"></script>
+    <script>
+      AOS.init({
+        duration: 800,
+        easing: 'ease-out-cubic',
+        once: true,
+        offset: 50
+      });
+      lucide.createIcons();
+    </script>
+  </body>
+</html>
