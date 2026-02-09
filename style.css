@@ -8,6 +8,11 @@
   box-sizing: border-box;
 }
 
+html, body {
+  overflow-x: hidden;
+  width: 100%;
+}
+
 ::selection {
   color: var(--primary-color);
   background: var(--primary-light);
