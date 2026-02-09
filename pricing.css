@@ -347,7 +347,7 @@
   gap: var(--spacing-lg);
   max-width: 1300px;
   margin: 0 auto var(--spacing-lg);
-  padding: 0 var(--spacing-md);
+  padding: 4rem 3rem;
 }
 
 .package-card {
