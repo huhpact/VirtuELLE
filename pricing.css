@@ -1098,6 +1098,7 @@
 
   .packages-grid {
     grid-template-columns: 1fr !important;
+    padding: 0;
   }
 
   .custom-banner-content {
