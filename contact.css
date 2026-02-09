@@ -15,6 +15,14 @@
   --shadow-xl: 0 32px 80px rgba(0, 0, 0, 0.16);
 }
 
+.container {
+  width: 100%;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+
 .contact-page {
   background: var(--bg-light);
   min-height: 100vh;
@@ -606,6 +614,14 @@
 }
 
 @media (max-width: 768px) {
+  .container {
+    padding: 0 1.25rem;
+  }
+
+  .contact-page {
+    overflow-x: hidden;
+  }
+
   .contact-hero {
     padding: 140px 0 80px;
   }
@@ -618,13 +634,22 @@
     font-size: 1.125rem;
   }
 
+  .contact-main-section {
+    padding: 60px 0 100px;
+  }
+
+  .contact-grid {
+    gap: 2rem;
+  }
+
   .booking-widget-wrapper {
-    padding: 2.5rem 1.75rem;
+    padding: 2rem 1.5rem;
+    border-radius: 24px;
   }
 
   .booking-widget-placeholder {
     min-height: 400px;
-    padding: 2rem;
+    padding: 2rem 1.5rem;
   }
 
   .placeholder-icon {
@@ -635,6 +660,20 @@
   .placeholder-icon i {
     width: 40px;
     height: 40px;
+  }
+
+  .contact-info-card {
+    padding: 2rem 1.5rem;
+  }
+
+  .info-icon {
+    width: 60px;
+    height: 60px;
+  }
+
+  .info-icon i {
+    width: 30px;
+    height: 30px;
   }
 
   .cta-buttons {
@@ -656,11 +695,51 @@
   }
 
   .cta-content {
-    padding: 3rem 2rem;
+    padding: 2.5rem 1.5rem;
+    border-radius: 24px;
   }
 
   .cta-title {
     font-size: 2rem;
+  }
+
+  .cta-description {
+    font-size: 1.125rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .container {
+    padding: 0 1rem;
+  }
+
+  .section-label {
+    padding: 0.5rem 1.25rem;
+    font-size: 0.75rem;
+  }
+
+  .contact-hero-title {
+    font-size: 2rem;
+  }
+
+  .booking-widget-wrapper,
+  .contact-info-card,
+  .cta-content {
+    padding: 1.5rem 1rem;
+  }
+
+  .social-icons {
+    gap: 0.75rem;
+  }
+
+  .social-link {
+    width: 52px;
+    height: 52px;
+  }
+
+  .cta-button {
+    padding: 1.25rem 2rem;
+    font-size: 1rem;
   }
 }
 
