@@ -20,6 +20,34 @@
     <link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css" />
     <link rel="stylesheet" href="/style.css">
     <script src="https://unpkg.com/lucide@latest"></script>
+    <style>
+@media screen and (max-width: 768px) {
+    .story-section {
+        display: block !important;       
+        width: 100% !important;        
+        max-width: 100% !important;
+        margin-left: 0 !important;      
+        margin-right: 0 !important;
+        padding-left: 15px !important;   
+        padding-right: 15px !important;
+        box-sizing: border-box !important; 
+        overflow-x: hidden !important;  
+    }
+    
+    .story-section h2, 
+    .story-section p {
+        word-break: break-word !important;
+        hyphens: auto !important;
+        max-width: 100% !important;
+    }
+
+    *
+    html, body {
+        overflow-x: hidden !important;
+        position: relative !important;
+    }
+}
+    </style>
   </head>
   <body>
     <div id="app">
@@ -150,24 +178,20 @@
 
             <div class="timeline-item timeline-left" data-aos="fade-right">
               <div class="timeline-content">
-                <div class="timeline-icon">
-                  <i data-lucide="graduation-cap"></i>
-                </div>
+                
                 <div class="timeline-date">2023
                 </div>
                 <h3 class="timeline-title">Geprüfte Assistenz der Geschäftsführung</h3>
                 <p class="timeline-text">Kommunikation und Konfliktmanagement, Spezialist für Projektmanagement in prozessorientiertem Kontext, Eventmanagement in unternehmerischem Kontext</p>
                 <div class="timeline-image">
-                  <img src="/img/ifm.webp" alt="Universität" loading="lazy" />
+                  <img src="/img/ifm.webp" alt="Universität" loading="lazy" style="object-fit: contain;" />
                 </div>
               </div>
             </div>
 
             <div class="timeline-item timeline-right" data-aos="fade-left">
               <div class="timeline-content">
-                <div class="timeline-icon">
-                  <i data-lucide="briefcase"></i>
-                </div>
+               
                 <div class="timeline-date">2025</div>
                 <h3 class="timeline-title">Leiterin der Geschäftsstelle (DGAW)</h3>
                 <p class="timeline-text">Leitung der Geschäftsstelle und Führung der Mitarbeitenden, Mitgliederverwaltung (inkl. Rechnungslegung, Mahnwesen etc.), Vorbereitung der kaufmännischen Unterlagen für die externe Buchhaltung, Veranstaltungs- und Messeorganisation inkl. Vor- und Nachbereitung, Referenten- und Mitgliederwerbung, Öffentlichkeitsarbeit, Pflege der Internetauftritte und sozialen Medien</p>
@@ -187,9 +211,7 @@
         
             <div class="timeline-item timeline-right timeline-current" data-aos="fade-left">
               <div class="timeline-content">
-                <div class="timeline-icon">
-                  <i data-lucide="sparkles"></i>
-                </div>
+               
                 <div class="timeline-date">Heute</div>
                 <h3 class="timeline-title">VirtuELLE</h3>
                 <p class="timeline-text">Kontinuierliche Innovation und Verbesserung unserer Services. Fokus auf nachhaltige Partnerschaften und die Unterstützung der nächsten Generation von Medizinern. Unser Ziel: Der vertrauenswürdigste Partner für Ärzte im deutschen Sprachraum zu sein.</p>
