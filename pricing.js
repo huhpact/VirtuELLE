@@ -39,9 +39,7 @@ function initBookingModal() {
           <div style="font-weight: 700; font-size: 1.25rem; color: var(--primary-color); margin-bottom: 0.5rem;">
             ${packageInfo.name}
           </div>
-          <div style="color: var(--text-light); margin-bottom: 0.75rem;">
-            ${packageInfo.hours}
-          </div>
+          
           <div style="font-size: 1.5rem; font-weight: 800; color: var(--text-color);">
             € ${packageInfo.price} <span style="font-size: 1rem; font-weight: 600;">brutto</span>
           </div>
