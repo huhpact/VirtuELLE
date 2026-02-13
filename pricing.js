@@ -1,22 +1,18 @@
 const packageData = {
   kennenlernen: {
     name: 'Kennenlernen',
-    hours: '1,5 Stunden',
-    price: '133,88'
+    price: '115,43'
   },
   basic: {
     name: 'Basic',
-    hours: '3 Stunden ',
     price: '270,13'
   },
   advanced: {
     name: 'Advanced',
-    hours: '8 Stunden',
     price: '650,93'
   },
   premium: {
     name: 'Premium',
-    hours: '16 Stunden',
     price: '1.186,43'
   }
 };
