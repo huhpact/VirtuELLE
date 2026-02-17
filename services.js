@@ -10,23 +10,27 @@ const serviceData = {
         items: [
           {
             title: 'Terminmanagement',
-            text: 'Koordination aller Termine, Kalenderführung und Erinnerungsservice für einen reibungslosen Praxisablauf'
+            text: 'Professionelle Verwaltung Ihres Kalenders mit automatischen Erinnerungen und optimierter Zeitplanung'
           },
           {
-            title: 'E-Mail & Korrespondenz',
-            text: 'Professionelle Bearbeitung Ihrer E-Mails, Anfragen und geschäftliche Korrespondenz in Ihrem Namen'
+            title: 'E-Mail-Management',
+            text: 'Intelligentes Filtern, Priorisieren und Beantworten Ihrer E-Mails nach Ihren Vorgaben'
           },
           {
             title: 'Dokumentenverwaltung',
-            text: 'Digitale Ablage, Archivierung und Organisation aller wichtigen Unterlagen und Dokumente'
+            text: 'Digitale Ablage und Organisation aller wichtigen Dokumente mit schnellem Zugriff'
+          },
+          {
+            title: 'Telefonservice',
+            text: '24/7 Erreichbarkeit für Ihre Patienten mit professionellem Call-Management'
           },
           {
             title: 'Patientenkommunikation',
-            text: 'Freundliche und professionelle Kommunikation mit Patienten via Telefon, E-Mail oder Chat'
+            text: 'Freundliche und professionelle Kommunikation mit Ihren Patienten'
           },
-          {
-            title: 'Buchhaltungsunterstützung',
-            text: 'Rechnungsstellung, Mahnwesen und Unterstützung bei der Buchhaltung Ihrer Praxis'
+            {
+            title: 'Rechnungsstellung',
+            text: 'Präzise Erstellung und Verwaltung von Rechnungen und Mahnwesen'
           }
         ]
       }
@@ -35,31 +39,31 @@ const serviceData = {
   travel: {
     icon: 'plane',
     title: 'Travel Management',
-    subtitle: 'Stressfreies Reisen durch perfekt organisierte Reiseplanung und -durchführung',
+    subtitle: 'Stressfreies Reisen durch perfekt organisierte Reiseplanung.',
     sections: [
       {
         title: 'Reiseservices',
         icon: 'map',
         items: [
           {
-            title: 'Flug & Hotel',
-            text: 'Recherche und Buchung von Flügen und Hotels nach Ihren Präferenzen und Budget'
+            title: 'Flug- & Hotelbuchungen',
+            text: 'Optimale Reiseverbindungen und komfortable Unterkünfte zu besten Konditionen'
           },
           {
-            title: 'Reiseplanung',
-            text: 'Erstellung detaillierter Reisepläne mit allen wichtigen Informationen und Kontakten'
+            title: 'Reiserouten',
+            text: 'Detaillierte Reiserouten mit allen wichtigen Informationen und Kontakten'
           },
           {
-            title: 'Visa & Dokumente',
-            text: 'Unterstützung bei Visa-Anträgen und Organisation aller notwendigen Reisedokumente'
+            title: 'Mietwagen & Transfers',
+            text: 'Organisation aller Transportmittel vor Ort'
           },
           {
-            title: 'Transfer & Mobilität',
-            text: 'Organisation von Mietwagen, Transfers und lokalen Transportmöglichkeiten'
+            title: '24/7 Reisebetreuung',
+            text: 'Persönlicher Ansprechpartner während Ihrer gesamten Reise'
           },
           {
-            title: '24/7 Support',
-            text: 'Persönliche Betreuung während Ihrer Reise für spontane Änderungen und Notfälle'
+            title: 'Reisekostenabrechnung',
+            text: 'Strukturierte Erfassung und Abrechnung aller Reisekosten'
           }
         ]
       }
@@ -75,24 +79,28 @@ const serviceData = {
         icon: 'sparkles',
         items: [
           {
-            title: 'Konzeptentwicklung',
-            text: 'Kreative Entwicklung des Event-Konzepts abgestimmt auf Ihre Ziele und Zielgruppe'
+            title: 'Konferenzorganisation',
+            text: 'Komplette Planung und Durchführung von medizinischen Konferenzen und Seminaren'
           },
           {
-            title: 'Location & Catering',
-            text: 'Auswahl und Buchung passender Veranstaltungsorte sowie Organisation des Caterings'
+            title: 'Team-Events',
+            text: 'Kreative Konzepte für motivierende und verbindende Teamveranstaltungen'
           },
           {
-            title: 'Gästemanagement',
-            text: 'Einladungsmanagement, RSVP-Tracking und Kommunikation mit allen Teilnehmern'
+            title: 'Location',
+            text: 'Auswahl der perfekten Location passend zu Event-Typ und Budget'
           },
           {
+            title: 'Catering-Management',
+            text: 'Organisation hochwertiger Beköstigung für alle Teilnehmer'
+          },
+          {
+            title: 'Gäste-Management',
+            text: 'Professionelle Verwaltung von Einladungen, RSVPs und Teilnehmerlisten'
+          },
+           {
             title: 'Technische Ausstattung',
-            text: 'Organisation von Audio-/Videotechnik, Präsentationsmaterialien und IT-Support'
-          },
-          {
-            title: 'Event-Koordination',
-            text: 'Professionelle Koordination am Veranstaltungstag für einen reibungslosen Ablauf'
+            text: 'Bereitstellung und Betreuung aller benötigten technischen Systeme'
           }
         ]
       }
@@ -109,23 +117,27 @@ const serviceData = {
         items: [
           {
             title: 'Projektplanung',
-            text: 'Strukturierte Planung mit klaren Meilensteinen, Zeitplänen und Ressourcenallokation'
+            text: 'Detaillierte Planung mit realistischen Zeitplänen und Meilensteinen'
           },
           {
             title: 'Team-Koordination',
-            text: 'Effektive Koordination aller Beteiligten mit regelmäßiger Kommunikation und Updates'
+            text: 'Effektive Koordination aller Beteiligten und Stakeholder'
           },
           {
-            title: 'Budget & Controlling',
-            text: 'Überwachung des Projektbudgets und detailliertes Reporting über den Projektstatus'
+            title: 'Budget-Controlling',
+            text: 'Kontinuierliche Überwachung und Reporting der Projektkosten'
           },
           {
             title: 'Risikomanagement',
-            text: 'Proaktive Identifikation von Risiken und Entwicklung von Gegenmaßnahmen'
+            text: 'Proaktive Identifikation und Behandlung potenzieller Risiken '
           },
           {
             title: 'Qualitätssicherung',
-            text: 'Kontinuierliche Qualitätskontrolle und Sicherstellung der Zielerreichung'
+            text: 'Systematische Überprüfung aller Projektergebnisse'
+          },
+           {
+            title: 'Dokumentation',
+            text: 'Lückenlose Dokumentation aller Projektphasen und Entscheidungen'
           }
         ]
       }
