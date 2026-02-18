@@ -9,7 +9,7 @@ const serviceData = {
         icon: 'star',
         items: [
           {
-            title: 'Terminmanagement',
+            title: 'Terminkoordination',
             text: 'Professionelle Verwaltung Ihres Kalenders mit automatischen Erinnerungen und optimierter Zeitplanung'
           },
           {

@@ -678,13 +678,31 @@ function initServiceModal() {
       icon: 'briefcase',
       description: 'Professionelle Verwaltung Ihres Praxisalltags mit höchster Präzision und Diskretion. Wir übernehmen alle administrativen Aufgaben, damit Sie sich auf Ihre Patienten konzentrieren können.',
       features: [
-        { title: 'Terminkoordination', desc: 'Professionelle Verwaltung Ihres Kalenders mit automatischen Erinnerungen und optimierter Zeitplanung' },
-        { title: 'E-Mail-Management', desc: 'Intelligentes Filtern, Priorisieren und Beantworten Ihrer E-Mails nach Ihren Vorgaben' },
-        { title: 'Dokumentenverwaltung', desc: 'Digitale Ablage und Organisation aller wichtigen Dokumente mit schnellem Zugriff' },
-        { title: 'Telefonservice', desc: '24/7 Erreichbarkeit für Ihre Patienten mit professionellem Call-Management' },
-        { title: 'Rechnungsstellung', desc: 'Präzise Erstellung und Verwaltung von Rechnungen und Mahnwesen' },
-        { title: 'Patientenkommunikation', desc: 'Freundliche und professionelle Kommunikation mit Ihren Patienten' }
-      ],
+          {
+            title: 'Terminkoordination',
+            desc: 'Professionelle Verwaltung Ihres Kalenders mit automatischen Erinnerungen und optimierter Zeitplanung'
+          },
+          {
+            title: 'E-Mail-Management',
+            desc: 'Intelligentes Filtern, Priorisieren und Beantworten Ihrer E-Mails nach Ihren Vorgaben'
+          },
+          {
+            title: 'Dokumentenverwaltung',
+            desc: 'Digitale Ablage und Organisation aller wichtigen Dokumente mit schnellem Zugriff'
+          },
+          {
+            title: 'Telefonservice',
+            desc: '24/7 Erreichbarkeit für Ihre Patienten mit professionellem Call-Management'
+          },
+          {
+            title: 'Patientenkommunikation',
+            desc: 'Freundliche und professionelle Kommunikation mit Ihren Patienten'
+          },
+            {
+            title: 'Rechnungsstellung',
+            desc: 'Präzise Erstellung und Verwaltung von Rechnungen und Mahnwesen'
+          }
+        ], 
       benefits: [
         'Bis zu 15 Stunden pro Woche mehr Zeit für Patienten',
         'Reduzierung administrativer Fehler um 95%',
@@ -697,13 +715,27 @@ function initServiceModal() {
       icon: 'plane',
       description: 'Stressfreies Reisen durch perfekt organisierte Reiseplanung. Von der Buchung bis zur Rückkehr kümmern wir uns um jedes Detail Ihrer Geschäfts- oder Urlaubsreisen.',
       features: [
-        { title: 'Flug- & Hotelbuchungen', desc: 'Optimale Reiseverbindungen und komfortable Unterkünfte zu besten Konditionen' },
-        { title: 'Reiserouten', desc: 'Detaillierte Itineraries mit allen wichtigen Informationen und Kontakten' },
-        { title: 'Visa & Dokumente', desc: 'Vollständige Abwicklung aller reisebezogenen Formalitäten' },
-        { title: 'Mietwagen & Transfers', desc: 'Organisation aller Transportmittel vor Ort' },
-        { title: '24/7 Reisebetreuung', desc: 'Persönlicher Ansprechpartner während Ihrer gesamten Reise' },
-        { title: 'Reisekostenabrechnung', desc: 'Strukturierte Erfassung und Abrechnung aller Reisekosten' }
-      ],
+          {
+            title: 'Flug- & Hotelbuchungen',
+            desc: 'Optimale Reiseverbindungen und komfortable Unterkünfte zu besten Konditionen'
+          },
+          {
+            title: 'Reiserouten',
+            desc: 'Detaillierte Reiserouten mit allen wichtigen Informationen und Kontakten'
+          },
+          {
+            title: 'Mietwagen & Transfers',
+            desc: 'Organisation aller Transportmittel vor Ort'
+          },
+          {
+            title: '24/7 Reisebetreuung',
+            desc: 'Persönlicher Ansprechpartner während Ihrer gesamten Reise'
+          },
+          {
+            title: 'Reisekostenabrechnung',
+            desc: 'Strukturierte Erfassung und Abrechnung aller Reisekosten'
+          }
+        ], 
       benefits: [
         'Zeitersparnis von durchschnittlich 8 Stunden pro Reise',
         'Kosteneinsparungen durch optimierte Buchungen',
@@ -716,13 +748,31 @@ function initServiceModal() {
       icon: 'calendar',
       description: 'Unvergessliche Events durch professionelle Planung und perfekte Ausführung. Wir organisieren Konferenzen, Seminare und Firmenfeiern bis ins kleinste Detail.',
       features: [
-        { title: 'Konferenzorganisation', desc: 'Komplette Planung und Durchführung von medizinischen Konferenzen und Seminaren' },
-        { title: 'Team-Events', desc: 'Kreative Konzepte für motivierende und verbindende Teamveranstaltungen' },
-        { title: 'Location-Suche', desc: 'Auswahl der perfekten Location passend zu Event-Typ und Budget' },
-        { title: 'Catering-Management', desc: 'Organisation hochwertiger Verpflegung für alle Teilnehmer' },
-        { title: 'Technische Ausstattung', desc: 'Bereitstellung und Betreuung aller benötigten technischen Systeme' },
-        { title: 'Gästemanagement', desc: 'Professionelle Verwaltung von Einladungen, RSVPs und Teilnehmerlisten' }
-      ],
+          {
+            title: 'Konferenzorganisation',
+            desc: 'Komplette Planung und Durchführung von medizinischen Konferenzen und Seminaren'
+          },
+          {
+            title: 'Team-Events',
+            desc: 'Kreative Konzepte für motivierende und verbindende Teamveranstaltungen'
+          },
+          {
+            title: 'Location',
+            desc: 'Auswahl der perfekten Location passend zu Event-Typ und Budget'
+          },
+          {
+            title: 'Catering-Management',
+            desc: 'Organisation hochwertiger Beköstigung für alle Teilnehmer'
+          },
+          {
+            title: 'Gäste-Management',
+            desc: 'Professionelle Verwaltung von Einladungen, RSVPs und Teilnehmerlisten'
+          },
+           {
+            title: 'Technische Ausstattung',
+            desc: 'Bereitstellung und Betreuung aller benötigten technischen Systeme'
+          }
+        ],
       benefits: [
         'Erfolgreiche Events ohne Stress',
         'Professionelles Projektmanagement',
@@ -735,13 +785,31 @@ function initServiceModal() {
       icon: 'target',
       description: 'Erfolgreiche Projektumsetzung durch strukturiertes Management. Wir führen Ihre Projekte effizient zum Ziel mit klarer Kommunikation und transparenten Prozessen.',
       features: [
-        { title: 'Projektplanung', desc: 'Detaillierte Planung mit realistischen Zeitplänen und Meilensteinen' },
-        { title: 'Team-Koordination', desc: 'Effektive Koordination aller Beteiligten und Stakeholder' },
-        { title: 'Budget-Überwachung', desc: 'Kontinuierliche Kontrolle und Reporting der Projektkosten' },
-        { title: 'Risikomanagement', desc: 'Proaktive Identifikation und Behandlung potenzieller Risiken' },
-        { title: 'Qualitätssicherung', desc: 'Systematische Überprüfung aller Projektergebnisse' },
-        { title: 'Dokumentation', desc: 'Lückenlose Dokumentation aller Projektphasen und Entscheidungen' }
-      ],
+          {
+            title: 'Projektplanung',
+            desc: 'Detaillierte Planung mit realistischen Zeitplänen und Meilensteinen'
+          },
+          {
+            title: 'Team-Koordination',
+            desc: 'Effektive Koordination aller Beteiligten und Stakeholder'
+          },
+          {
+            title: 'Budget-Controlling',
+            desc: 'Kontinuierliche Überwachung und Reporting der Projektkosten'
+          },
+          {
+            title: 'Risikomanagement',
+            desc: 'Proaktive Identifikation und Behandlung potenzieller Risiken '
+          },
+          {
+            title: 'Qualitätssicherung',
+            desc: 'Systematische Überprüfung aller Projektergebnisse'
+          },
+           {
+            title: 'Dokumentation',
+            desc: 'Lückenlose Dokumentation aller Projektphasen und Entscheidungen'
+          }
+        ],
       benefits: [
         'Termingerechte Projektumsetzung',
         'Einhaltung des Budgets',
